@@ -44,6 +44,7 @@ function App() {
          <h1 className="text-white font-bold m-0 text-xl p-20 ">Weather app</h1>
 
 
+
         <input type="text" className="text-xl rounded-xl p-1 border-gray-100 font-semibold uppercase bg-slate-200  " placeholder='City Name' onChange={e=> setName(e.target.value)}/>
 
         <button type=" relative" className="m-10 bg-orange-300 p-1 rounded-lg " onClick={handleclick}>
